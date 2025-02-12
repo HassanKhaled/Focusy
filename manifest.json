@@ -1,6 +1,6 @@
 {
-  "name": "Temp Extensions",
-  "description": "Template Chrome Extension",
+  "name": "Focusy",
+  "description": "For your focus only !!",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
