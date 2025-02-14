@@ -3,7 +3,7 @@
   "description": "For your focus only !!",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "scripting"],
 
   "icons": {
     "16": "images/icon16.png",
