@@ -1,1 +1,2 @@
-alert('hi');
+// for debugging proposes
+//alert('hi');
