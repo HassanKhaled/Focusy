@@ -14,6 +14,15 @@ chrome.action.onClicked.addListener(async (tab) => {
         // Next state will always be the opposite
         const nextState = prevState === 'ON' ? 'OFF' : 'ON';
 
+
+        chrome.action.setBadgeTextColor({ color: 'white' });
+
+        if (nextState == 'ON') {
+            chrome.action.setBadgeBackgroundColor({ color: 'green' });
+        } else {
+            chrome.action.setBadgeBackgroundColor({ color: 'red' });
+        }
+
         // Set the action badge to the next state
         await chrome.action.setBadgeText({
             tabId: tab.id,
